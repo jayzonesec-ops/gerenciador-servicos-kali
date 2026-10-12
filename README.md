@@ -59,7 +59,6 @@ O script:
 - ✅ **Desabilitar no boot** (`systemctl disable`)
 - ✅ **Ver status detalhado** (`systemctl status --no-pager`)
 - ✅ **Ver logs recentes** (`journalctl -u <serviço> -n 30`)
-- ✅ Detecção automática do nome real do `php-fpm`
 - ✅ Interface colorida com alinhamento de colunas corrigido
 - ✅ Autostart via `.desktop` no XFCE
 
@@ -133,25 +132,27 @@ O arquivo de autostart fica fora do projeto, em:
 
 ## ⚙️ Configuração e Execução
 
-### 1️⃣ Baixar ou clonar o projeto
+## ⚙️ Configuração e Execução
+
+### 1️⃣ Clonar o repositório
 
 ```bash
-mkdir -p ~/Ferramentas/Gerenciadores
-cd ~/Ferramentas/Gerenciadores
+git clone https://github.com/jayzonesec-ops/gerenciador-servicos-kali.git
+cd gerenciador-servicos-kali
 ```
 
-Coloque o arquivo `Gerenciador_Servicos.sh` neste diretório.
+O projeto será criado na pasta `gerenciador-servicos-kali/`, dentro do diretório onde o comando foi executado.
 
 ### 2️⃣ Tornar executável
 
 ```bash
-chmod +x ~/Ferramentas/Gerenciadores/Gerenciador_Servicos.sh
+chmod +x Gerenciador_Servicos.sh
 ```
 
 ### 3️⃣ Rodar manualmente (primeiro teste)
 
 ```bash
-~/Ferramentas/Gerenciadores/Gerenciador_Servicos.sh
+./Gerenciador_Servicos.sh
 ```
 
 O menu deve abrir no terminal atual.
@@ -170,13 +171,13 @@ Conteúdo:
 [Desktop Entry]
 Name=Gerenciador de Serviços
 Comment=Inicia o Gerenciador de Serviços no terminal
-Exec=qterminal -e bash /home/jaison/Ferramentas/Gerenciadores/Gerenciador_Servicos.sh
+Exec=qterminal -e bash %h/gerenciador-servicos-kali/Gerenciador_Servicos.sh
 Type=Application
 X-GNOME-Autostart-enabled=true
 ```
 
 > [!IMPORTANT]
-> Crie o arquivo **sem `sudo`**, com o usuário comum. O caminho no `Exec` deve apontar para o local real do script. Ajuste `/home/jaison/...` para o seu caminho, se necessário.
+> Crie o arquivo **sem `sudo`**, com o usuário comum. O `%h` é expandido para o home do usuário logado, então o caminho funciona em qualquer máquina. Se você clonou o projeto em outro lugar, ajuste o caminho do `Exec` conforme o local real.
 
 ### 5️⃣ Verificar se o autostart está correto
 
@@ -191,7 +192,7 @@ grep Exec ~/.config/autostart/gerenciador-servicos.desktop
 
 Ao executar o script, o menu principal é exibido:
 <p align="center">
-  <img src="COLE_AQUI_O_LINK_DA_IMAGEM_DO_SUBMENU" width="800"/>
+  <img width="842" height="459" alt="Image" src="https://github.com/user-attachments/assets/042f8ea4-1f36-4170-a0c2-08b46425d7c4" />
   <br>
   <em>Menu principal do gerenciador de  serviços</em>
 </p>
@@ -206,7 +207,7 @@ Ao executar o script, o menu principal é exibido:
 ### Submenu de serviço
 
 <p align="center">
-  <img src="COLE_AQUI_O_LINK_DA_IMAGEM_DO_SUBMENU" width="800"/>
+  <img width="834" height="364" alt="Image" src="https://github.com/user-attachments/assets/54bb1ccc-d785-44fa-8194-816b8702f5c6" />
   <br>
   <em>Submenu de ações de um serviço</em>
 </p>
