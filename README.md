@@ -191,13 +191,13 @@ grep Exec ~/.config/autostart/gerenciador-servicos.desktop
 ## 📡 Uso
 
 Ao executar o script, o menu principal é exibido:
+
 <p align="center">
   <img width="842" height="459" alt="Image" src="https://github.com/user-attachments/assets/042f8ea4-1f36-4170-a0c2-08b46425d7c4" />
   <br>
   <em>Menu principal do gerenciador de  serviços</em>
 </p>
 
-```
 
 ### Navegação
 
@@ -211,7 +211,6 @@ Ao executar o script, o menu principal é exibido:
   <br>
   <em>Submenu de ações de um serviço</em>
 </p>
-```
 
 ---
 
