@@ -236,8 +236,8 @@ Este projeto está sob a licença **MIT**. Consulte o arquivo `LICENSE` para mai
 
 **Jaison**
 
-- 🐙 GitHub: [@jaison](https://github.com/jaison)
-- 📦 Projeto: [Gerenciador de Serviços](https://github.com/jaison/gerenciador-servicos)
+- 🐙 GitHub: [@jayzonesec-ops](https://github.com/jayzonesec-ops)
+- 📦 Projeto: [Gerenciador de Serviços](https://github.com/jayzonesec-ops/gerenciador-servicos-kali)
 
 <p align="center">
   <sub>💻 Built by <a href="https://github.com/jaison">Jaison</a> — Linux & Tools 🔧</sub>
