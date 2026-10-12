@@ -240,5 +240,5 @@ Este projeto está sob a licença **MIT**. Consulte o arquivo `LICENSE` para mai
 - 📦 Projeto: [Gerenciador de Serviços](https://github.com/jayzonesec-ops/gerenciador-servicos-kali)
 
 <p align="center">
-  <sub>💻 Built by <a href="https://github.com/jaison">Jaison</a> — Linux & Tools 🔧</sub>
+  <sub>💻 Built by <a href="https://github.com/jayzonesec-ops">JayZoneSec</a> — Ethical Hacking & Tools 🔐</sub>
 </p>
