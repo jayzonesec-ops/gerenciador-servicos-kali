@@ -193,7 +193,7 @@ grep Exec ~/.config/autostart/gerenciador-servicos.desktop
 Ao executar o script, o menu principal é exibido:
 
 <p align="center">
-  <img width="842" height="459" alt="Image" src="https://github.com/user-attachments/assets/042f8ea4-1f36-4170-a0c2-08b46425d7c4" />
+  <img width="819" height="546" alt="Image" src="https://github.com/user-attachments/assets/c0998ff9-515f-4f7d-a7a6-abd2e6edcbaf" />
   <br>
   <em>Menu principal do gerenciador de  serviços</em>
 </p>
@@ -207,7 +207,7 @@ Ao executar o script, o menu principal é exibido:
 ### Submenu de serviço
 
 <p align="center">
-  <img width="834" height="364" alt="Image" src="https://github.com/user-attachments/assets/54bb1ccc-d785-44fa-8194-816b8702f5c6" />
+  <img width="834" height="364" alt="Image" src="https://github.com/user-attachments/assets/93afd660-78bc-4ad4-b93d-a9d91e1c9025" />
   <br>
   <em>Submenu de ações de um serviço</em>
 </p>
@@ -234,7 +234,7 @@ Este projeto está sob a licença **MIT**. Consulte o arquivo `LICENSE` para mai
 
 ## 👨‍💻 Autor
 
-**Jaison**
+**JayZoneSec**
 
 - 🐙 GitHub: [@jayzonesec-ops](https://github.com/jayzonesec-ops)
 - 📦 Projeto: [Gerenciador de Serviços](https://github.com/jayzonesec-ops/gerenciador-servicos-kali)
