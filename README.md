@@ -221,7 +221,7 @@ Para que o Gerenciador de Serviços abra automaticamente ao fazer login no XFCE,
 > [!TIP]
 > Se quiser testar sem reiniciar a sessão, execute manualmente:
 > ```bash
-> qterminal -e bash ~/Ferramentas/Gerenciadores/Gerenciador_Servicos.sh
+> qterminal -e bash ~/home/usuario/gerenciador-servicos-kali/Gerenciador_Servicos.sh
 > ```
 
 ---
